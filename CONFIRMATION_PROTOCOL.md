@@ -36,7 +36,7 @@ H5. Graded weights do not beat the unweighted list. An advantage of grading is c
 These hypotheses bind future data only. They were written after the data-regime results reported in the manuscript
 were known, so those results are not a test of them.
 
-Settings: as above, plus the data-regime procedure of `data_regime.sh` and `gpe2.py`: training learners subsampled at
+Settings: as above, plus the data-regime procedure of `data_regime_extended.sh` and `data_regime_point.py` (run with `VALSUB=1`): training learners subsampled at
 0.5, 1, 2, 3.2, 5, 10, 25 and 100% (three samples each); DKT retrained to early stopping (patience 2) on the sampled
 learners; difficulty, frequency, POP and LKT refitted on them; validation learners subsampled in the same proportion
 (every layer fitted on the sampled learners only); held-out window unchanged. Increment = ESD-DKT on B5 over B1RK.

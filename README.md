@@ -1,12 +1,12 @@
-# Reproducibility package v2.1.0 (ESM 1)
+# Reproducibility package v2.2.0 (ESM 1)
 
 Reproduces every table and figure of:
 
-> Truong Hai Bang. *Missing prerequisite evidence in graph-based remediation scoring: an evidence-state
-> decomposition benchmarked against knowledge tracing.* Manuscript submitted to Engineering Applications of
-> Artificial Intelligence.
+> Truong Hai Bang. *When does a prerequisite graph help? Missing-evidence estimation and the marginal value of
+> prerequisite structure over knowledge tracing across data regimes.* Manuscript submitted to Engineering Applications
+> of Artificial Intelligence.
 
-Zenodo: https://doi.org/10.5281/zenodo.24096400 (this version, 2.1.0); https://doi.org/10.5281/zenodo.24071784 (all versions). GitHub: https://github.com/Bangth2026/prereq-graph-data-regimes
+Zenodo: https://doi.org/10.5281/zenodo.24071784 (all versions; resolves to the latest). GitHub: https://github.com/Bangth2026/prereq-graph-data-regimes
 
 ## Contents
 
@@ -70,6 +70,7 @@ about 2 hours each, the controls and the KT training-length check about 45 minut
     bash data_regime_extended.sh && python graph_estimator_recalibration.py
     python data_regime_summary_basic.py data/regime /path/to/xes3g5m_prep/regime
     python data_regime_summary.py data/regime /path/to/xes3g5m_prep/regime
+    bash data_regime_relation_control.sh && python data_regime_relation_summary.py data/regime /path/to/xes3g5m_prep/regime
 
 The script verifies the download, converts the log, runs every analysis in `code/`, redraws the figures and
 runs `compare_outputs.py`, which compares every regenerated number with `expected_outputs/` (relative
@@ -120,7 +121,10 @@ on these models may differ in the third or fourth decimal on another machine. Th
 | `data_regime.sh`, `data_regime_replication.sh` | data-regime study: samples 0.5–100% of training learners (seeds 1–3), retrains DKT to early stopping on them and refits the estimators (Section 4.7) |
 | `data_regime_extended.sh`, `data_regime_point.py` | extended data-regime study on Junyi: adds a 3.2% size, runs every point with the logistic layers fitted on all validation learners and with every layer fitted on the sampled learners (`VALSUB=1`), topic- and observation-matched random relations, ESD-ZERO/POP, the strongest learner model per size, failures flagged, bootstrap replicates (Section 5.7, Table 8) |
 | `graph_estimator_recalibration.py` | Platt recalibration baselines and GPE without the count term (Section 5.7) |
-| `data_regime_summary.py` | Table 8, Fig. 7, pooled intervals, trend fit, N\*, equivalence classification (`expected_outputs/data_regime/out_regime2.json`) |
+| `data_regime_summary.py` | Table 8 columns, pooled intervals, trend fit, N\*, equivalence classification (`expected_outputs/data_regime/out_regime2.json`) |
+| `data_regime_relation_control.sh`, `data_regime_relation_control.py` | relation-specific part of the data-regime gain: real minus topic- and observation-matched random relations over B1RK and over the strongest learner model, with learner-bootstrap replicates (Table 8, Fig. 7b) |
+| `data_regime_relation_summary.py` | pooled intervals for the relation-specific part, Table 9 (N\* by configuration), Fig. 7 (`expected_outputs/data_regime/out_regime3.json`, `nstar_table.csv`) |
+| `graphical_abstract.py` | graphical abstract |
 | `data_regime_summary_basic.py` | Table A.6 (`expected_outputs/data_regime/regime_summary.csv`) |
 | `latency_estimators.py` | end-to-end cost per case with each estimator (Section 3.5) |
 | `figures_overview.py` | Fig. 1 (study overview) and Fig. 2 (method pipeline) |
