@@ -1,0 +1,4 @@
+Expert map: 988 assertions -> 981 distinct (7 duplicates)
+Removed self-loops: proportions_1, number_sense_length_l1
+Removed cycle edge: [('radical_multiplication_and_division', 'simplifying_radicals')]
+Result: 978 edges (DAG)

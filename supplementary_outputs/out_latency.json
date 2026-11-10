@@ -1,0 +1,11 @@
+{
+ "batch_cases": 163049,
+ "batch_pairs": 791326,
+ "batch_seconds": 0.21828752699980214,
+ "batch_microseconds_per_case": 1.3387848254193655,
+ "online_cases": 20000,
+ "online_us_median": 2.9269999686221126,
+ "online_us_p99": 6.000109983688144,
+ "indegree_median": 5.0,
+ "indegree_max": 7
+}

@@ -1,0 +1,22 @@
+{
+ "rows": 25925992,
+ "sum_attempts": 35360149,
+ "sum_hints": 7390959,
+ "rows_hint": 1673993,
+ "rows_review": 554570,
+ "rows_topic": 6458171,
+ "rows_suggested": 5327335,
+ "rows_pn_na": 0,
+ "rows_multi_attempt": 3562708,
+ "users": 247606,
+ "users_nonreview": 247606,
+ "users_with_problem_number_1": 246952,
+ "users_nonhint": 227250,
+ "users_any_correct": 218182,
+ "users_any_proficiency": 123223,
+ "exercises": 722,
+ "exercises_nonreview": 722,
+ "rows_problem_type_na": 0,
+ "rows_plus_hints": 33316951,
+ "rows_plus_hint_rows": 27599985
+}

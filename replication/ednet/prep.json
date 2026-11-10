@@ -1,0 +1,11 @@
+{
+ "source": "EdNet-KT1, first shard of the Hugging Face mirror mgor/EDNet (kt1/train-00000-of-00011.parquet)",
+ "rows_raw": 8662979,
+ "rows": 8662979,
+ "learners": 72351,
+ "units": 142,
+ "learners_ge10": 40808,
+ "relations": 695,
+ "targets_with_candidates": 141,
+ "weight_mean": 0.7148135961935846
+}

@@ -1,0 +1,20 @@
+{
+ "recon_899": 899,
+ "fpkg_978": 978,
+ "common": 897,
+ "only_fpkg": 81,
+ "only_cphnb": 2,
+ "only_cphnb_edges": [
+  [
+   "proportions_1",
+   "proportions_1"
+  ],
+  [
+   "radical_multiplication_and_division",
+   "simplifying_radicals"
+  ]
+ ],
+ "reasons_only_fpkg": {
+  "endpoint not among the 722 logged exercises": 81
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "kind": "sakt",
+ "window": 100,
+ "d": 64,
+ "heads": 4,
+ "epochs": 1,
+ "piece_fraction": 1.0,
+ "lr": 0.001,
+ "batch": 64,
+ "heldback_piece_auc": [
+  0.6613301730181897
+ ],
+ "n_queries": 2663141
+}

@@ -1,0 +1,97 @@
+{
+ "learner": 167,
+ "rows": [
+  {
+   "prereq": "measuring_segments",
+   "mu": 0.333,
+   "Q": 0.75,
+   "ratings": "3_7_1_1_8_1_1_1_4",
+   "status": "rejected",
+   "expert": false,
+   "attempts": 0,
+   "correct": 0,
+   "pc": null,
+   "bkt": 0.3,
+   "gps_pc": null
+  },
+  {
+   "prereq": "multiplication_0.5",
+   "mu": 0.827,
+   "Q": 0.875,
+   "ratings": "6_9_7_7_8_5_8_9_8",
+   "status": "accepted",
+   "expert": false,
+   "attempts": 14,
+   "correct": 13,
+   "pc": 0.929,
+   "bkt": 1.0,
+   "gps_pc": 0
+  },
+  {
+   "prereq": "multiplication_1.5",
+   "mu": 0.679,
+   "Q": 0.764,
+   "ratings": "6_7_9_6_9_1_5_8_4",
+   "status": "rejected",
+   "expert": false,
+   "attempts": 0,
+   "correct": 0,
+   "pc": null,
+   "bkt": 0.9,
+   "gps_pc": null
+  },
+  {
+   "prereq": "multiplication_1",
+   "mu": 0.765,
+   "Q": 0.903,
+   "ratings": "6_7_9_6_8_5_7_7_7",
+   "status": "accepted",
+   "expert": true,
+   "attempts": 10,
+   "correct": 10,
+   "pc": 1.0,
+   "bkt": 1.0,
+   "gps_pc": 0
+  },
+  {
+   "prereq": "perimeter_1",
+   "mu": 0.309,
+   "Q": 0.778,
+   "ratings": "1_8_1_1_8_1_1_1_3",
+   "status": "rejected",
+   "expert": false,
+   "attempts": 0,
+   "correct": 0,
+   "pc": null,
+   "bkt": 0.9,
+   "gps_pc": null
+  },
+  {
+   "prereq": "division_1",
+   "mu": 0.852,
+   "Q": 0.833,
+   "ratings": "9_6_7_9_9_9_6_9_5",
+   "status": "accepted",
+   "expert": false,
+   "attempts": 0,
+   "correct": 0,
+   "pc": null,
+   "bkt": 0.9,
+   "gps_pc": 0.852
+  },
+  {
+   "prereq": "division_0.9",
+   "mu": 0.889,
+   "Q": 0.889,
+   "ratings": "7_8_8_9_8_9_9_9_5",
+   "status": "accepted",
+   "expert": false,
+   "attempts": 0,
+   "correct": 0,
+   "pc": null,
+   "bkt": 0.9,
+   "gps_pc": 0.889
+  }
+ ],
+ "failed": 0
+}

@@ -1,0 +1,108 @@
+{
+ "topic_new_share_test": 0.42658341970818586,
+ "newness": {
+  "exercise-level new (primary)": {
+   "n": 163049,
+   "fail": 0.39417598390667835,
+   "base": 0.7499256635358398,
+   "BIN_EXP": 0.0023791300082708355,
+   "ALL1": 0.004123559490695317,
+   "UNG": -5.793698897682553e-05,
+   "FPKG": -5.3937714392326974e-05
+  },
+  "topic-level new": {
+   "n": 69554,
+   "fail": 0.45564597291313225,
+   "base": 0.7385937200491073,
+   "BIN_EXP": 0.0004591959048716454,
+   "ALL1": 0.001787687532194271,
+   "UNG": 0.0002416918584604577,
+   "FPKG": 2.2660213396696882e-05
+  },
+  "exercise-new, topic seen": {
+   "n": 93495,
+   "fail": 0.34844644098614896,
+   "base": 0.753258713250067,
+   "BIN_EXP": 0.001821273672899304,
+   "ALL1": 0.0034910284170817096,
+   "UNG": 0.00021490017122871574,
+   "FPKG": -1.363505333973336e-05
+  }
+ },
+ "edge_dependency": {
+  "n_edges": 266,
+  "mean_dependency": 0.18932439746408505,
+  "binary expert": [
+   -0.06919442696443415,
+   -0.1897794192424856,
+   0.057190610648775245
+  ],
+  "graded (\u03bc*)": [
+   0.12436245566138614,
+   -0.006840137344025823,
+   0.2509447986688634
+  ],
+  "interaction-derived (B8)": [
+   -0.015221560950417197,
+   -0.13006371381174903,
+   0.11157151278878648
+  ],
+  "Q": [
+   0.030464319973302154,
+   -0.0827266697373367,
+   0.14775078651028536
+  ],
+  "dependency_admitted": 0.1879162566225071,
+  "dependency_rejected": 0.19166191126110455
+ },
+ "observation_rates": {
+  "by \u03bc* tercile": {
+   "low": 0.08528861107336444,
+   "mid": 0.2204014701294353,
+   "high": 0.411859558064712
+  },
+  "by prior attempt": {
+   "false": 0.20317664083267195,
+   "true": 0.35591033965359975
+  },
+  "by domain": {
+   "algebra": 0.23298926869206701,
+   "arithmetic": 0.25380195866941113,
+   "geometry": 0.2144599270197198
+  },
+  "overall": 0.23893692359406868
+ },
+ "ranking_sensitivity": {
+  "Random": {
+   "observed_only": 0.8843810137542287,
+   "unobserved_as_negative": 0.4698336364872261,
+   "ipw_observed": 0.8844287499008617
+  },
+  "Learner deficit only": {
+   "observed_only": 0.9111677840605925,
+   "unobserved_as_negative": 0.4928846753918993,
+   "ipw_observed": 0.9119859605696219
+  },
+  "Binary expert": {
+   "observed_only": 0.878035704395227,
+   "unobserved_as_negative": 0.49930291454103276,
+   "ipw_observed": 0.8772104763568055
+  },
+  "Graded ungated": {
+   "observed_only": 0.9016562942129037,
+   "unobserved_as_negative": 0.6360081930726876,
+   "ipw_observed": 0.9010318285261198
+  },
+  "FPKG": {
+   "observed_only": 0.8930555901092098,
+   "unobserved_as_negative": 0.5750879031122877,
+   "ipw_observed": 0.8922559008373164
+  },
+  "Transition \u00d7 deficit": {
+   "observed_only": 0.9170414840656286,
+   "unobserved_as_negative": 0.6823314423369502,
+   "ipw_observed": 0.9170033748513073
+  }
+ },
+ "ranking_cases_all": 63763
+}

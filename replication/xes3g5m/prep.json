@@ -1,0 +1,17 @@
+{
+ "source": "XES3G5M (Liu et al., 2023), question-level files, original release",
+ "rows_raw": 5549184,
+ "sequences_time_ordered": 1.0,
+ "mined_relations": 2787,
+ "mined_targets": 563,
+ "mined_weight_mean": 0.824788257869214,
+ "tree_siblings": 3102,
+ "tree_cousins": 6347,
+ "rows": 5549184,
+ "learners": 18066,
+ "units": 798,
+ "learners_ge10": 18066,
+ "relations": 9449,
+ "targets_with_candidates": 747,
+ "weight_mean": 0.6641443538998836
+}

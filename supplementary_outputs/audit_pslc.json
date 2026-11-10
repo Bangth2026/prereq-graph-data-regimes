@@ -1,0 +1,23 @@
+{
+ "rows": 39462201,
+ "by_response_type": {
+  "ATTEMPT": 32081370,
+  "HINT_REQUEST": 7380831
+ },
+ "by_outcome": {
+  "CORRECT": 21460360,
+  "INCORRECT": 10621010,
+  "HINT": 7380831
+ },
+ "by_type_outcome": {
+  "ATTEMPT|CORRECT": 21460360,
+  "ATTEMPT|INCORRECT": 10621010,
+  "HINT_REQUEST|HINT": 7380831
+ },
+ "students": 247547,
+ "students_by_type": {
+  "ATTEMPT": 247546,
+  "HINT_REQUEST": 143808
+ },
+ "kc_exercises": 722
+}

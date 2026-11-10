@@ -1,0 +1,23 @@
+{
+ "graded_ungated": {
+  "n_relations_in_cases": 791326,
+  "share_unobserved": 0.7658651428109274,
+  "share_observed_deficit": 0.03786555730508033,
+  "share_observed_mastered": 0.1962692998839922,
+  "gps_mass_share_unobserved": 0.9714022114349685
+ },
+ "fpkg": {
+  "n_relations_in_cases": 503188,
+  "share_unobserved": 0.7607673473930221,
+  "share_observed_deficit": 0.04276930292455305,
+  "share_observed_mastered": 0.19646334968242485,
+  "gps_mass_share_unobserved": 0.9691623400790491
+ },
+ "binary_expert": {
+  "n_relations_in_cases": 163878,
+  "share_unobserved": 0.65333967951769,
+  "share_observed_deficit": 0.18436885976152992,
+  "share_observed_mastered": 0.1622914607207801,
+  "gps_mass_share_unobserved": 0.9276038368328374
+ }
+}

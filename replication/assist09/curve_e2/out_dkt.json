@@ -1,0 +1,14 @@
+{
+ "epochs": 2,
+ "patience": 0,
+ "hidden": 64,
+ "emb": 64,
+ "chunk": 200,
+ "lr": 0.002,
+ "batch": 256,
+ "train_pieces": 3105,
+ "heldout_piece_auc_by_epoch": [
+  0.6644801156454094,
+  0.697235721393525
+ ]
+}

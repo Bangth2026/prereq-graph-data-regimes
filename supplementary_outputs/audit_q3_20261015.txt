@@ -1,0 +1,5 @@
+per-case unobserved share, 713 admitted (FPKG): n = 155700  median 1.000  IQR [0.500, 1.000]  mean 0.744  share of cases with all candidates unobserved 0.518
+per-case unobserved share, 1,131 candidates (B5): n = 163049  median 0.800  IQR [0.600, 1.000]  mean 0.758  share of cases with all candidates unobserved 0.402
+signed r UNG: +0.548  (r^2 0.300)
+signed r BIN_MAJ: +0.439  (r^2 0.193)
+signed r BIN_EXP: +0.258  (r^2 0.066)
