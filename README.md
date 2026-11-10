@@ -6,7 +6,7 @@ Reproduces every table and figure of:
 > prerequisite structure over knowledge tracing across data regimes.* Manuscript submitted to Engineering Applications
 > of Artificial Intelligence.
 
-Zenodo: https://doi.org/10.5281/zenodo.24071784 (all versions; resolves to the latest). GitHub: https://github.com/Bangth2026/prereq-graph-data-regimes
+Zenodo: https://doi.org/10.5281/zenodo.24097453 (this version, 2.2.0); https://doi.org/10.5281/zenodo.24071784 (all versions). GitHub: https://github.com/Bangth2026/prereq-graph-data-regimes
 
 ## Contents
 
