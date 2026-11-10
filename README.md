@@ -6,7 +6,7 @@ Reproduces every table and figure of:
 > decomposition benchmarked against knowledge tracing.* Manuscript submitted to Engineering Applications of
 > Artificial Intelligence.
 
-Zenodo: https://doi.org/10.5281/zenodo.24071785 (this version); https://doi.org/10.5281/zenodo.24071784 (all versions).
+Zenodo: https://doi.org/10.5281/zenodo.24096400 (this version, 2.1.0); https://doi.org/10.5281/zenodo.24071784 (all versions). GitHub: https://github.com/Bangth2026/prereq-graph-data-regimes
 
 ## Contents
 
